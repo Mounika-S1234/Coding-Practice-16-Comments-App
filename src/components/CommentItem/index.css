@@ -1,0 +1,104 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.comment-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #cbd2d9;
+  border-radius: 8px;
+}
+
+.comment-header {
+  display: flex;
+  align-items: center;
+}
+
+.initial {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  margin-right: 16px;
+}
+
+.comment-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 16px;
+  color: #1e293b;
+}
+
+.comment {
+  font-size: 14px;
+  color: #475569;
+  margin-top: 4px;
+}
+
+.date {
+  font-size: 12px;
+  color: #7e858e;
+  margin-top: 4px;
+}
+
+.comment-footer {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.like-button,
+.delete-button {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.like-icon,
+.delete-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.like-text {
+  margin-left: 4px;
+  color: #0284c7;
+  font-size: 14px;
+}
